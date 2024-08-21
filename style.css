@@ -1,0 +1,56 @@
+* {
+    font-family: Comic Sans MS;
+}
+
+
+#preloader {
+    background: #111827 no-repeat center center;
+    background-size: 15%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+
+
+/* @keyframes appear {
+    from {
+        opacity: 0;
+        transform: translateX(-100px);
+        clip-path: inset(100% 100% 0 0);
+    } */
+    /* to {
+        opacity: 1;
+        transform: translateX(0px); */
+        /* clip-path: inset(0 0 0 0); */
+    /* }
+} */
+
+/* .container {
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+
+} */
+
+
+
+
+/* #avatar {
+    animation: trans-right 2.5s ease-in-out infinite;
+}
+
+@keyframes trans-right {
+    from {
+        transfrom: translateX(0px)
+    }
+    to {
+        transform: translateX(10px);
+    }
+    
+} */
+
+
+
+
