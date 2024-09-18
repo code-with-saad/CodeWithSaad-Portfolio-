@@ -1,49 +1,42 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com/3.3.2"></script>
   <link rel="stylesheet" href="style.css">
-  
   <script defer src="app.js"></script>
-  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-  <!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-  <script>
-    AOS.init(
-      // {
-      //   offset: 300,
-      //   duration: 1000 
-      // }
-    );
-  </script> -->
-
   <link rel="shortcut icon" href="/assets/favicon2.ico" type="image/x-icon">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   <title>Muhammad Saad</title>
+
 </head>
 <body class="bg-gray-900">
 
+  <!-- Loader Open -->
   <div id="preloader">
     <h1 class="text-white flex justify-center text-4xl  h-screen items-center animate-bounce"><i>< Muhammad Saad /></i></h1>
   </div>
+  <!-- Loader Close -->
+
 
     <!-- NavBar Open -->
     <header class="text-gray-400 bg-gray-900 body-font fixed w-full top-0 left-0 z-10">
         <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center" bis_skin_checked="1">
-          <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+          <a href="/" class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg>
             <span class="ml-3 text-xl">< Muhammad Saad /></span>
           </a>
           <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-              <a href="#" class="mr-5 hover:text-white">HOME</a>
-              <a href="#about" class="mr-5 hover:text-white">ABOUT</a>
-              <a href="#education" class="mr-5 hover:text-white">EDUCATION</a>
-              <a href="#skills" class="mr-5 hover:text-white">SKILLS</a>
-              <a href="#services" class="mr-5 hover:text-white">SERVICES</a>
-              <a href="#contact" class="mr-5 hover:text-white">CONTACT</a>
+              <a href="/#home" class="mr-5 hover:text-white">HOME</a>
+              <a href="/#about" class="mr-5 hover:text-white">ABOUT</a>
+              <a href="/#education" class="mr-5 hover:text-white">EDUCATION</a>
+              <a href="/#skills" class="mr-5 hover:text-white">SKILLS</a>
+              <a href="/#services" class="mr-5 hover:text-white">SERVICES</a>
+              <a href="/#contact" class="mr-5 hover:text-white">CONTACT</a>
           </nav>
           <a href="https://drive.google.com/file/d/1P_Sxc1i3f3jkxwAmT33_C6C-tnxTwnva/view?usp=sharing" target="_blank">
               <button class="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">Download CV
@@ -55,8 +48,6 @@
         </div>
       </header>
       <!-- NavBar Close -->
-
-
 
       <!-- Home Open -->
       <section id="home" class="text-gray-400 bg-gray-900 body-font">
@@ -503,6 +494,12 @@
       <!-- Footer Close -->
 
 
+      
+<!-- Lenis Open -->
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script> 
+<!-- Lenis Close -->
+
+<!-- ChatBot Open -->
 <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 <df-messenger
   chat-icon="https:&#x2F;&#x2F;cdn-icons-png.freepik.com&#x2F;512&#x2F;81&#x2F;81117.png"
@@ -511,6 +508,8 @@
   agent-id="8c34f846-0e99-4ca3-8300-e422b0c9fca4"
   language-code="en"
 ></df-messenger>
+<!-- ChatBot Close -->
+
 
 </body>
 </html>

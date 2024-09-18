@@ -3,7 +3,6 @@ var loader = document.getElementById("preloader");
 window.addEventListener(
   "load",
   function (load) {
-    // loader.style.display = "none"
     window.removeEventListener("load", load, false);
     setTimeout(function () {
       loader.style.display = "none";
@@ -20,3 +19,16 @@ let type = new Typed(".auto-typed", {
   loop: true,
   smartBackspace: true
  });
+
+
+
+ const lenis = new Lenis({
+  duration: 1.5,
+ })
+
+function raf(time) {
+  lenis.raf(time)
+  requestAnimationFrame(raf)
+}
+
+requestAnimationFrame(raf)
