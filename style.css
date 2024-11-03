@@ -24,31 +24,16 @@
   }
 }
 
+@media screen and (min-width: 1366px) {
+  body, html {
+      overflow-x: hidden;
 
-/* @media only screen and (min-width: 701px) {
-  .hamburger {
-    display: none;
-  }
-  .navbar {
-    display: block;
-  }
+  }   
 }
 
 
-@media only screen and (max-width: 700px) {
-  .hamburger {
-    display: block;
-  }
-  .navbar {
-    display: none;
-  }
-} */
 
 
-
-.hamburger {
-    display: none;
-}
 
 .bar {
     display: block;
@@ -83,22 +68,5 @@
         margin: 2.5rem 0;
     }
 
-    .hamburger {
-        display: block;
-        cursor: pointer;
-    }
-
-
-    .hamburger.active .bar:nth-child(2) {
-        opacity: 0;
-    }
-
-    .hamburger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-
-    .hamburger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    }
-
+    
 }
